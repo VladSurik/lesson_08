@@ -5,7 +5,7 @@ package com.company;
 //        - если число кратно 5 то вывести вместо него World
 //        - если число кратно и 3 и 5 то вывести вместо него HelloWorld
 
-public class task_02 {
+public class Task_02 {
     public static void main(String[] args) {
         int start = 1;
         int end = 99;

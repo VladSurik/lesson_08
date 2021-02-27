@@ -8,7 +8,7 @@ import java.util.Random;
         В пароле допускаются только латинские большие и маленькие буквы, цифры и символ подчеркивания
         Пароль обязательно должен содержать Большие, маленькие буквы и цифры
 */
-public class task_04 {
+public class Task_04 {
     private static final int lengthPassword = 8;
     private static final String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz";
     private static final Random random = new Random();
@@ -20,9 +20,9 @@ public class task_04 {
 
     private static String createPassword() {
         StringBuilder stringBuilder = new StringBuilder();
-        for (int j = 0; j < task_04.lengthPassword / 2; j++) {
+        for (int j = 0; j < Task_04.lengthPassword / 2; j++) {
             stringBuilder.append(random.nextInt(9));
-            stringBuilder.append(task_04.alphabet.charAt(random.nextInt(task_04.alphabet.length())));
+            stringBuilder.append(Task_04.alphabet.charAt(random.nextInt(Task_04.alphabet.length())));
         }
         boolean resultChek = chekPassword(stringBuilder.toString());
         if (!resultChek) {

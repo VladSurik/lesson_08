@@ -10,7 +10,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.Arrays;
 
-public class task_03 {
+public class Task_03 {
     public static void main(String[] args) {
         String testStr = "Долго считалось, что \"Искусство войны\" является древнейшим и наиболее"
                 + " глубоким военным трактатом Китая, а все остальные книги в лучшем случае второразрядными.";
