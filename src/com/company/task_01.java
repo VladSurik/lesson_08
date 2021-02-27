@@ -13,6 +13,6 @@ public class task_01 {
         for (int i = 0; i < periodDealYears * 12; i++) {
             sumCapital += sumCapital / 100 * percent;
         }
-        System.out.printf("your sum %.2f after %s", sumCapital, periodDealYears);
+        System.out.printf("your sum %.2f after %s years", sumCapital, periodDealYears);
     }
 }
